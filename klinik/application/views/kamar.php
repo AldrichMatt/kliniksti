@@ -11,7 +11,7 @@
 </div>
 <script>
     $(window).on('load', function(){
-        let page = 'kamar';
+        let page = 'ketersediaan kamar';
         $('#title').text(page);
         $('#subpath').text(page);
     })
