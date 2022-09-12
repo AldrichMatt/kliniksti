@@ -11,12 +11,8 @@
 </div>
 <script>
     $(window).on('load', function(){
-        let page = 'Riwayat';
-        $('#'+page).addClass('active');
-        page += ' Kunjungan'
-        var title = trim($('.active').text());
-        $('#title').text(page);
-        $('#subpath').text(page);
+        let title = 'riwayat_kunjungan';
+        $('#'+title).addClass('active');
     })
 </script>
 <?php include "bootstrap/footer.php"; ?>

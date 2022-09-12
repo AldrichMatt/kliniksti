@@ -48,7 +48,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.5.0/js/bootstrap-datepicker.js"></script>
     
     <script>
-        
+        function trim (myString)
+        {
+            return myString.replace(/^\s+/,'').replace(/\s+$/,'')
+        } 
         $(window).on('load', function() {
             if (feather) {
                 feather.replace({
@@ -57,7 +60,9 @@
                 });
                 
             }
-                
+                var title = trim($('.active').text());
+                $('#title').text(title);
+                $('#subpath').text(title);
 
         })
 

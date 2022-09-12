@@ -11,9 +11,7 @@
 </div>
 <script>
     $(window).on('load', function(){
-        let page = 'Kamar';
-        $('#'+page).addClass('active');
-        var title = trim($('.active').text());
+        let page = 'kamar';
         $('#title').text(page);
         $('#subpath').text(page);
     })

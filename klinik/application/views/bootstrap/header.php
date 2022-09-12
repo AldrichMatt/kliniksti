@@ -325,10 +325,4 @@
         </a>
     </li>
 </ul>
-<script>
-    function trim (myString)
-        {
-            return myString.replace(/^\s+/,'').replace(/\s+$/,'')
-        } 
-</script>
 <!-- END: Header-->
