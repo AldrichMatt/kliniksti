@@ -27,7 +27,6 @@
                         </div>
                     </div> -->
                     <div class="row p-2 d-flex flex-column">
-                        <h2>Total TT : 00 TT</h2>
                         <table class="table stripped-table">
                             <thead class="text-center">
                                 <th>Ruang</th>
