@@ -11,9 +11,11 @@
 </div>
 <script>
     $(window).on('load', function(){
-        let title = 'file';
-        $('#'+title).addClass('active')
-        console.log('#'+title);
+        let page = 'file';
+        $('#'+page).addClass('active')
+        var title = trim($('.active').text());
+                $('#title').text(title);
+                $('#subpath').text(title);
     })
 </script>
 <?php include "bootstrap/footer.php"; ?>

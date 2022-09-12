@@ -1,8 +1,6 @@
 <div class="content-body">
             <section class="dashboard-ecommerce">
                 <div class="card p-2">
-                    <?php include "bootstrap/profile.php"; ?>
-                    <?php include "bootstrap/tab.php"; ?>
                     <!-- <div class="row">
                         <div class="col-lg-4 col-md-4 ">
                             <div class="d-flex flex-wrap flex-column" style="font-size:small; line-height:1px;">

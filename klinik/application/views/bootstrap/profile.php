@@ -4,8 +4,8 @@
     <div class="col-xl-12 col-md-12">
                             <div class="card">
                         <div class="row g-0">   
-                            <div class="col-md-2 m-2  d-flex flex-wrap flex-row">
-                                <img src="assets\user-default.webp" style='width:13em' alt="">
+                            <div class="col-lg-3 d-flex flex-wrap flex-row">
+                                <img src="assets\user-default.webp" style='max-width:16vw;' alt="">
                             </div>
                             <div class="card-body d-flex flex-column">
                                  <table style="line-height:2.5">
