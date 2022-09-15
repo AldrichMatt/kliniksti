@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Print Page</title>
+    <style type="text/css">
+    @media print{
+    body{ background-color:#FFFFFF; background-image:none; color:#000000 }
+    #ad{ display:none;}
+    #leftbar{ display:none;}
+    #contentarea{ width:100%;}
+    }
+    
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .container{
+        width: min-content;
+        text-align: center;
+    }
+
+    .header, .header-text{
+        display: flex;
+        align-items: center;
+    }
+
+    .header-text{
+        width: max-content;
+        flex-direction: column;
+    }
+
+    .head-title{
+        font-size: 18px;
+        margin: 0;
+    }
+
+    .br{
+        display: block;
+        width: 90%;
+        height: 25px;
+    }
+    
+    .card{
+        display: flex;
+        justify-content: center;
+        border: 1px black solid;
+        min-width: 80%;
+        padding: 0 5%;
+        height: 30px;
+    }
+    .card h3{
+        margin: 5px 0px 0px 0px;
+    }
+
+    .card-container{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    .info-container{
+        padding-top: 15px;
+        text-align: left;
+        line-height: 1.5;
+    }
+    
+    hr{
+        margin-bottom: -10px;
+    }
+</style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="assets/medic-logo.webp" style="width: 150px;" alt="" srcset="">
+            <div class="header-text">
+                <p class="head-title">Klinik Tiara Nusantara Barru</p>
+                <p style=" font-size: 14px; margin: 0;">21 Regency, Blok H-34 Surabaya</br>Telp. 0811 34 1212</br>Email. support@trustmedis.com</p>
+            </div>
+        </div>
+        <hr>
+        <strong><h3>Tanda Bukti Registrasi Rawat Inap</h3></strong>
+        <div class="card-container">
+            <div class="card">
+                <strong>
+                    <h3>NUSANTARA I</h3>
+                </strong>
+            </div>
+        </div>
+        <div class="info-container">
+            <table>
+                <tr>
+                    <td>Tanggal - Jam</td>
+                    <td> : 18-Aug-2022 - 16:19</td>
+                </tr>
+                <tr>
+                    <td><strong>No. Pendaftaran</strong></td>
+                    <td><strong> : RI18082022-00001</strong></td>
+                </tr>
+                <tr>
+                    <td>No. RM</td>
+                    <td> : 000004</td>
+                </tr>
+                <tr>
+                    <td>Kelas</td>
+                    <td> : Kelas VIP</td>
+                </tr>
+                <tr>
+                    <td>Nama Pasien / JK</td>
+                    <td> : ELSA MARESIA / P</td>
+                </tr>
+                <tr>
+                    <td>Tanggal Lahir</td>
+                    <td> : 04-Mar-1989</td>
+                </tr>
+                <tr>
+                    <td>Usia</td>
+                    <td> : 33 Th 5 Bln 14 Hr</td>
+                </tr>
+                <tr>
+                    <td>Dokter</td>
+                    <td> : Dr. Ainun Aniah Hasyim</td>
+                </tr>
+                <tr>
+                    <td>Pembayaran/Penj.</td>
+                    <td> : UMUM/UMUM</td>
+                </tr>
+                <tr>
+                    <td>Petugas</td>
+                    <td> : Dr. Andi Thahirah</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
