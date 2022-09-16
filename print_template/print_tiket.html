@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Print Page</title>
+    <style type="text/css">
+    @media print{
+    body{ background-color:#FFFFFF; background-image:none; color:#000000 }
+    #ad{ display:none;}
+    #leftbar{ display:none;}
+    #contentarea{ width:100%;}
+    }
+    
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .container{
+        width: min-content;
+        text-align: center;
+    }
+
+    .header, .header-text{
+        display: flex;
+        align-items: center;
+        margin-bottom: 5px;
+    }
+
+    .header-text{
+        width: max-content;
+        flex-direction: column;
+    }
+
+    .head-title{
+        font-size: 20px;
+        margin: 0;
+    }
+    
+    .card{
+        display: flex;
+        justify-content: center;
+        border: 1px black solid;
+        width: 100%;
+        font-size: small;
+    }
+
+    .card-container{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .info-container{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    h1{
+        font-size: 70px;
+        margin-top: -2px;
+        margin-bottom: -2px;
+    }
+
+    p{
+        margin: 0;
+    }
+</style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="header-text">
+                <strong><p class="head-title">Klinik Tiara<br>Nusantara Barru</p></strong>
+                <p style=" font-size: 13px; margin: 0;">Telp. 0811341212</p>
+            </div>
+        </div>
+        <div class="info-container">
+            <p>Jumat, 16 September 2022 16:20</p>
+            <div class="card">No. Antrian</div>
+            <div class="card">Umum</div>
+            <div class="card"><h1>U2<h1></div>
+            <p>Kode : <strong>N7IDJV</strong></p>
+        </div>
+    </div>
+</body>
+</html>
