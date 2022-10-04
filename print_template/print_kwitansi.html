@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Print Page</title>
+    <style type="text/css">
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+    }
+    .container{
+        width: 50%;
+        text-align: center;
+    }
+
+    .header, .header-text{
+        display: flex;
+        align-items: center;
+    }
+
+    .header-text{
+        width: max-content;
+        flex-direction: column;
+        padding-left: 20px;
+    }
+
+    .head-title{
+        font-size: 15px;
+        margin: 0;
+    }
+
+    .br{
+        display: block;
+        width: 90%;
+        height: 25px;
+    }
+    
+    .card{
+        display: flex;
+        justify-content: center;
+        border: 1px black solid;
+        min-width: 80%;
+        padding: 0 5%;
+        height: 30px;
+    }
+
+    .info-container{
+        text-align: left;
+    }
+
+    .info-title{
+        display: flex;
+        justify-content: center;
+    }
+
+    h1{
+        margin-top:10%;
+        margin-bottom: 0;
+    }
+
+    .credential{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: end;
+    }
+    .credential-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: end;
+        text-align: center;
+    }
+
+
+
+    
+</style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="../application/views/assets/medic-logo.webp" style="width: 150px;" alt="" srcset="">
+            <div class="header-text">
+                <p class="head-title">Klinik Tiara Nusantara Barru</p>
+                <p style=" font-size: 14px; margin: 0;">21 Regency, Blok H-34 Surabaya</br>Telp. 0811 34 1212 Email. support@trustmedis.com</p>
+            </div>
+        </div>
+        <div class="info-title">
+            <strong><h1>Kuitansi</h1></strong>
+        </div>
+        <div class="info-container">
+            <table>
+                <tr>
+                    <td>No. Kuitansi</td>
+                    <td> : 2022.000001/RSDM</td>
+                </tr>
+                <tr>
+                    <td>Tanggal Pendaftaran</td>
+                    <td> : 06-09-2022</td>
+                </tr>
+                <tr>
+                    <td>Terima dari</td>
+                    <td> : HANIF ( No RM. 000044 ) PADONGKO</td>
+                </tr>
+                <tr>
+                    <td>Uang Sejumlah</td>
+                    <td> : Rp 7,000,000</td>
+                </tr>
+                <tr>
+                    <td>Terbilang</td>
+                    <td> : Tujuh juta Rupiah</td>
+                </tr>
+                <tr>
+                    <td>Untuk Pembayaran</td>
+                    <td> : Pelunasan Sewa Ruang</td>
+                </tr>
+                <tr>
+                    <td>Tanggal Pembayaran</td>
+                    <td> : 04- 10- 2022</td>
+                </tr>
+                <tr>    
+                    <td>Cara Bayar</td>
+                    <td> : CASH, CASH</td>
+                </tr>
+                <tr>
+                    <td>Dokter</td>
+                    <td> : Dr. Andi Thahirah (TIARA I)</td>
+                </tr>
+            </table>
+        </div>
+       <br>
+        <div class="credential">
+            <div class="credential-container">
+                <div class="credential-info">
+                    Makassar, 04- 10- 2022<br>
+                    Telah Dibayar<br>
+                    Kasir<br>
+                    <br>
+                    <br>
+                    <br>
+                    <hr>
+                    <br>
+                    dr. Andi Thahirah
+                </div>
+            </div>
+        </div>
+    </div> 
+</body>
+</html>
