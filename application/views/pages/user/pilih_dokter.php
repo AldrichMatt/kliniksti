@@ -9,7 +9,7 @@
                         <div class="col-lg-2 ml-1">
                             <div class="card">
                                 <div class="card-body d-flex flex-wrap flex-column">
-                                    <a href="" class="btn" data-bs-toggle="modal" data-bs-target="#ModalDokter">
+                                    <a class="btn" data-bs-toggle="modal" data-bs-target="#ModalDokter">
                                         <img src="" alt="" style="width:100px" srcset="../assets/user-default.webp">
                                         <label style="text-align: center" class="h5 pt-1" for="">Drg. Fatimah</label>
                                         <label style="text-align: center" class="pt-1" for="">(SEMUA JENIS PEMBAYARAN)</label>
@@ -32,7 +32,7 @@
                             </div>
                         </div>
                          <div class="modal-footer d-flex flex-wrap justify-content-center">
-                            <a href="../user/rincian_booking.php" class="btn btn-primary rounded-pill px-3">SELANJUTNYA</a>
+                            <a class="btn btn-primary rounded-pill px-3">SELANJUTNYA</a>
                         </div>
                         </div>
                     </div>

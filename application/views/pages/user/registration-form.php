@@ -1,5 +1,5 @@
 <div class="row pb-2">
-    <div class="col-md-12 py-3"><a href="../user/login.php"><i data-feather="arrow-left"></i> Kembali Ke Halaman Utama</a></div>
+    <div class="col-md-12 py-3"><a><i data-feather="arrow-left"></i> Kembali Ke Halaman Utama</a></div>
 </div>
 <div class="row">
     <div class="col-md-12 d-flex justify-content-center"><h1 class="text-primary">REGISTRASI</h1></div>
@@ -70,8 +70,8 @@
                     </div>
                 </form>
             <div class="col-md-12 d-flex flex-wrap flex-row">
-                <div class="col-md-6 d-flex justify-content-start"><strong><a href="#">Lupa Nomor RM?</a></strong></div>
-                <div class="col-md-6 d-flex justify-content-end"><strong><a href="#">Mendaftar Pasien Baru</a></strong></div>
+                <div class="col-md-6 d-flex justify-content-start"><strong><a>Lupa Nomor RM?</a></strong></div>
+                <div class="col-md-6 d-flex justify-content-end"><strong><a>Mendaftar Pasien Baru</a></strong></div>
             </div>
         </div>
     </div>

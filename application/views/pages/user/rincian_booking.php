@@ -95,8 +95,8 @@
                         </div>
                         <div class="col-lg-12 d-flex justify-content-center">
                             <div class="col-lg-10 d-flex flex-column flex-wrap">
-                                <a href="" class="btn btn-primary rounded-pill">BOOKING SEKARANG</a>
-                                <a class="btn btn-outline-primary rounded-pill mt-1" href="poli.php">UBAH JADWAL</a>
+                                <a class="btn btn-primary rounded-pill">BOOKING SEKARANG</a>
+                                <a class="btn btn-outline-primary rounded-pill mt-1">UBAH JADWAL</a>
                             </div>
                         </div>
                     </div>

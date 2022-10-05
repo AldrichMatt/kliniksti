@@ -9,7 +9,7 @@
                         <div class="col-lg-2 ml-1">
                             <div class="card">
                                 <div class="card-body d-flex flex-wrap flex-column">
-                                    <a href="../user/pilih_dokter.php" class="btn">
+                                    <a class="btn">
                                         <img src="" alt="" style="width:100px" srcset="../assets/medic-logo.webp">
                                         <label style="text-align: center" class="h5 pt-1" for="">POLI GIGI</label>
                                     </a>
@@ -19,7 +19,7 @@
                         <div class="col-lg-2 ml-1">
                             <div class="card">
                                 <div class="card-body d-flex flex-wrap flex-column">
-                                    <a href="../user/pilih_dokter.php" class="btn">
+                                    <a class="btn">
                                         <img src="" alt="" style="width:100px" srcset="../assets/medic-logo.webp">
                                         <label style="text-align: center" class="h5 pt-1" for="">POLI KIA   </label>
                                     </a>
@@ -29,7 +29,7 @@
                         <div class="col-lg-2 ml-1">
                             <div class="card">
                                 <div class="card-body d-flex flex-wrap flex-column">
-                                    <a href="../user/pilih_dokter.php" class="btn">
+                                    <a class="btn">
                                         <img src="" alt="" style="width:100px" srcset="../assets/medic-logo.webp">
                                         <label style="text-align: center" class="h5 pt-1" for="">POLI UMUM</label>
                                     </a>

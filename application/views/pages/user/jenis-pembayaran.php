@@ -3,12 +3,12 @@
                     <h1>PILIH JENIS PEMBAYARAN</h1>
                 </div>
                 <div class="col-lg-12 d-flex flex-wrap justify-content-center p-1">
-                    <a href="../user/poli.php" class="btn btn-primary rounded-pill" style="min-width:15%">
+                    <a class="btn btn-primary rounded-pill" style="min-width:15%">
                         UMUM
                     </a>
                 </div>
                 <div class="col-lg-12 d-flex flex-wrap justify-content-center p-1">
-                    <a href="#" class="btn btn-primary rounded-pill" style="min-width:15%" data-bs-toggle="modal" data-bs-target="#modalAsuransi">
+                    <a class="btn btn-primary rounded-pill" style="min-width:15%" data-bs-toggle="modal" data-bs-target="#modalAsuransi">
                         ASURANSI
                     </a>
                 <div class="modal fade" id="modalAsuransi" tabindex="-1" aria-labelledby="modalAsuransiLabel" aria-hidden="true">
@@ -28,7 +28,7 @@
                             <div class="col-lg-12 d-flex flex-row flex-wrap mt-1">
                             <div class="col-lg-3 px-1 d-flex flex-wrap flex-column">
                                 <div class="card d-flex flex-wrap justify-content-center align-items-center">
-                                <a href="../user/poli.php" class="btn">
+                                <a class="btn">
                                     <img src="" alt="" style="width:100px" srcset="../assets/medic-logo.webp">
                                     <label style="text-align: center" class="h5 pt-1" for="">ASURANSI 1</label>
                                 </a>
@@ -36,7 +36,7 @@
                             </div>
                             <div class="col-lg-3 px-1 d-flex flex-wrap flex-column">
                                 <div class="card d-flex flex-wrap justify-content-center align-items-center">
-                                <a href="../user/poli.php" class="btn">
+                                <a class="btn">
                                     <img src="" alt="" style="width:100px" srcset="../assets/medic-logo.webp">
                                     <label style="text-align: center" class="h5 pt-1" for="">ASURANSI 2</label>
                                 </a>
@@ -44,7 +44,7 @@
                             </div>
                             <div class="col-lg-3 px-1 d-flex flex-wrap flex-column">
                                 <div class="card d-flex flex-wrap justify-content-center align-items-center">
-                                <a href="../user/poli.php" class="btn">
+                                <a class="btn">
                                     <img src="" alt="" style="width:100px" srcset="../assets/medic-logo.webp">
                                     <label style="text-align: center" class="h5 pt-1" for="">ASURANSI 3</label>
                                 </a>
@@ -52,7 +52,7 @@
                             </div>
                             <div class="col-lg-3 px-1 d-flex flex-wrap flex-column">
                                 <div class="card d-flex flex-wrap justify-content-center align-items-center">
-                                <a href="../user/poli.php" class="btn">
+                                <a class="btn">
                                     <img src="" alt="" style="width:100px" srcset="../assets/medic-logo.webp">
                                     <label style="text-align: center" class="h5 pt-1" for="">ASURANSI 4</label>
                                 </a>
@@ -62,7 +62,7 @@
                             <div class="col-lg-12 d-flex flex-row flex-wrap mt-1">
                             <div class="col-lg-3 px-1 d-flex flex-wrap flex-column">
                                 <div class="card d-flex flex-wrap justify-content-center align-items-center">
-                                <a href="../user/poli.php" class="btn">
+                                <a class="btn">
                                     <img src="" alt="" style="width:100px" srcset="../assets/medic-logo.webp">
                                     <label style="text-align: center" class="h5 pt-1" for="">ASURANSI 5</label>
                                 </a>
@@ -70,7 +70,7 @@
                             </div>
                             <div class="col-lg-3 px-1 d-flex flex-wrap flex-column">
                                 <div class="card d-flex flex-wrap justify-content-center align-items-center">
-                                <a href="../user/poli.php" class="btn">
+                                <a class="btn">
                                     <img src="" alt="" style="width:100px" srcset="../assets/medic-logo.webp">
                                     <label style="text-align: center" class="h5 pt-1" for="">ASURANSI 6</label>
                                 </a>
@@ -78,7 +78,7 @@
                             </div>
                             <div class="col-lg-3 px-1 d-flex flex-wrap flex-column">
                                 <div class="card d-flex flex-wrap justify-content-center align-items-center">
-                                <a href="../user/poli.php" class="btn">
+                                <a class="btn">
                                     <img src="" alt="" style="width:100px" srcset="../assets/medic-logo.webp">
                                     <label style="text-align: center" class="h5 pt-1" for="">ASURANSI 7</label>
                                 </a>
@@ -86,7 +86,7 @@
                             </div>
                             <div class="col-lg-3 px-1 d-flex flex-wrap flex-column">
                                 <div class="card d-flex flex-wrap justify-content-center align-items-center">
-                                <a href="../user/poli.php" class="btn">
+                                <a class="btn">
                                     <img src="" alt="" style="width:100px" srcset="../assets/medic-logo.webp">
                                     <label style="text-align: center" class="h5 pt-1" for="">ASURANSI 8</label>
                                 </a>
